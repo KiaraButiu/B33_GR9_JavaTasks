@@ -1,4 +1,4 @@
-package mentor.alice.week1_solutions;
+package polina.week1_solutions;
 
 public class Numbers_DivideWithoutOperator {
 }

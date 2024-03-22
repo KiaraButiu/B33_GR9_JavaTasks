@@ -13,7 +13,7 @@ public class Numbers_OddOrEven {
         //If the remainder is 0 when divided by 2, then the number is even
 
         if(number % 2 == 0) {
-            System.out.println(number+ " even");
+            System.out.println(number + " even");
         } else {
             System.out.println(number + " odd");
         }

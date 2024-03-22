@@ -2,6 +2,11 @@ package ibrahim.week1_solution;
 
 public class FINRA {
 
+    public static void main(String[] args) {
+
+        System.out.println("Hello world");
+    }
+
     /*
     FINRA :
 Write

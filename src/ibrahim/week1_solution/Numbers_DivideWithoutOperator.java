@@ -5,6 +5,7 @@ public class Numbers_DivideWithoutOperator {
 
         System.out.println("Hello");
         System.out.println("World test 1");
+        System.out.println("Test3");
     }
      /*
     Write a method that can divide two numbers without using division operator

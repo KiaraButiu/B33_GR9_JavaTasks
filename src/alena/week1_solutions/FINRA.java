@@ -6,6 +6,8 @@ public class FINRA {
         System.out.println("Hello world");
     }
 
+    public static void FINRA() {}
+
 
 }
 

@@ -16,7 +16,7 @@ public class FINRA {
             }else if (i %5 == 0) {
                 System.out.println("RA");       // if current value "i" is divisible by 5, print "RA"
             }else{
-                System.out.println(i);          // Otherwise, print the current value of "i"
+                System.out.println(i);          // Otherwise, print the current value of "i".
             }
         }
     }

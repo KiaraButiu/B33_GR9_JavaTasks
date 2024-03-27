@@ -7,7 +7,7 @@ public class Numbers_DivideWithoutOperator {
     }
   public static void DivideWithoutOperator(double num1, double num2){
 
-      double rest=0;
+
     double count = 0;
 
         while (num1 >= num2){
@@ -15,6 +15,7 @@ public class Numbers_DivideWithoutOperator {
         count++;
 
     }
+
       System.out.println(count);
 }
 //

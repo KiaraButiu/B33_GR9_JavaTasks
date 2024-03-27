@@ -11,7 +11,7 @@ public class Numbers_DivideWithoutOperator {
         int count = 0;                  // initialize variable "count" to 0 to store the number of times num2 can be subtracted from num1
 
         while (num1 >= num2){           // We are using while loop since we do not know the number of iteration
-                                                // it will continue as long as num1 is Greater than Or Equals to num2
+                                                // Loop will continue as long as num1 is Greater than Or Equals to num2
             count++;                      // for each iteration the count will increase to 1
             num1 -= num2;                // num1 = num1 - num2 --> subtract num2 to num1
         }

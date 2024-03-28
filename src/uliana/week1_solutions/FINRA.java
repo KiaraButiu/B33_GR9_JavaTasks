@@ -17,6 +17,8 @@ public class FINRA {
             number++;
         }while (number <=n);
 
+        //we can use for loop instead of do while loop
+
     }
 }
 /*

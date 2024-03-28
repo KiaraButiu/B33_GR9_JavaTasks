@@ -12,8 +12,8 @@ public class Numbers_DivideWithoutOperator {
 
         while (num1 >= num2){           // We are using while loop since we do not know the number of iteration
                                                 // Loop will continue as long as num1 is Greater than Or Equals to num2
-            count++;                      // for each iteration the count will increase to 1
             num1 -= num2;                // num1 = num1 - num2 --> subtract num2 to num1
+            count++;                      // for each iteration the count will increase to 1
         }
         System.out.println(count);      // prints out the number of times num2 could be subtracted from num1
     }

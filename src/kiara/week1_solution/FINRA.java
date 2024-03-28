@@ -18,7 +18,6 @@ public class FINRA {
             }else{
                 System.out.println(i);          // Otherwise, print the current value of "i".
 
-                //HEY
             }
         }
     }

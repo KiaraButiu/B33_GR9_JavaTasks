@@ -17,11 +17,9 @@ public class Numbers_DivideWithoutOperator {
 
         //after the loop ends, it prints the value of count, which represents the quotient of x divided by y
     }
-
-
-//    public static void main(String[] args) {   //12(x) divide 2(y) = 6 (count), as an example
-//        divideWithoutOperator(12,2);
-//    }
+    public static void main(String[] args) {   //12(x) divide 2(y) = 6 (count), as an example
+        divideWithoutOperator(12,2);
+    }
 }
 
 

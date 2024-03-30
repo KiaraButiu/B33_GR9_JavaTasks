@@ -2,11 +2,14 @@ package Irina.week1_solution;
 
 public class FINRA {
     public static void main(String[] args) {
-       FINRA();
+       FINRA(); // new method designed/created. Accessible from every class and package:
+       // belongs to the class itself, we are able to call it via creating an object.
+       // void return type - no return value;
+        // Main-name of the class w/o this method the program will not be executed.
 
     }
 
-    public static void FINRA() {
+    public static void FINRA() { // Four loop.
         for (int i = 1; i <= 30; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("FINRA");

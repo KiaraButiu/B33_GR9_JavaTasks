@@ -1,6 +1,31 @@
 package kiara.week2_solution;
 
 public class Number_DivisibleBy3_5_15 {
+    public static void main(String[] args) {
+
+        int num = 100;
+
+        String by15 = "";
+        String by3 = "";
+        String by5 = "";
+
+        for (int i = 1; i <= num ; i++) {
+
+            if ( i %3 == 0 && i %5 == 0 && i %15 ==0 ){
+                by15 += i + " ";
+            }
+            if (i %3 == 0 && i %15 != 0 ){
+                by3 += i + " ";
+            }
+            if (i %5 == 0 && i %15 != 0 ){
+                by5 += i + " ";
+            }
+        }
+        System.out.println("Divisible By 15 " + by15 + " ");
+        System.out.println("Divisible By 3 " + by3 + " ");
+        System.out.println("Divisible By 5 " + by5 + " ");
+
+    }
 }
 /*
     Write a program that can print the numbers between 1 ~ N that can be divisible by 3, 5, and 15.

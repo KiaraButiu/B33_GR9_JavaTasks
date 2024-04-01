@@ -25,7 +25,6 @@ public class Number_ConsecutiveNumbers {
                 result = "" + i;
             }
             System.out.println(result);
-
         }
 
     }

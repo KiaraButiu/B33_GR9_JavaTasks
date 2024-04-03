@@ -1,34 +1,8 @@
-package kiara.week2_solution;
+package batuhan.week2_solutions;
 
 public class Number_DivisibleBy3_5_15 {
-    public static void main(String[] args) {
 
-        int num = 100;
-
-        String by15 = "";
-        String by3 = "";
-        String by5 = "";
-
-        for (int i = 1; i <= num ; i++) {
-
-            if ( i %3 == 0 && i %5 == 0 && i %15 ==0 ){
-                by15 += i + " ";
-            }
-            if (i %3 == 0 && i %15 != 0 ){
-                by3 += i + " ";
-            }
-            if (i %5 == 0 && i %15 != 0 ){
-                by5 += i + " ";
-
-            }
-        }
-        System.out.println("Divisible By 15 " + by15 + " ");
-        System.out.println("Divisible By 3 " + by3 + " ");
-        System.out.println("Divisible By 5 " + by5 + " ");
-
-    }
-}
-/*
+    /*
     Write a program that can print the numbers between 1 ~ N that can be divisible by 3, 5, and 15.
             if the number can be divisible by 3, 5 and 15,
                 then it should only be displayed in DivisibelBy15' section
@@ -48,3 +22,35 @@ public class Number_DivisibleBy3_5_15 {
                  Divisible By 3 3 6 9 12 18 21 24 27 33 36 39 42 48 51 54 57 63 66 69 72 78 81 84 87 93 96 99
 
     */
+
+
+
+
+    public static void main(String[] args) {
+
+
+        int N = 100;
+        String divisibleBy15 = "Divisible By 15: ";
+        String divisibleBy5 = "Divisible By 5: ";
+        String divisibleBy3 = "Divisible By 3: ";
+
+        for (int i = 1; i <= N; i++) {
+            if (i % 15 == 0) {
+                divisibleBy15 += i + " ";
+            } else if (i % 5 == 0) {
+                divisibleBy5 += i + " ";
+            } else if (i % 3 == 0) {
+                divisibleBy3 += i + " ";
+            }
+        }
+
+        System.out.println(divisibleBy15);
+        System.out.println(divisibleBy5);
+        System.out.println(divisibleBy3);
+
+
+
+    }
+
+
+}

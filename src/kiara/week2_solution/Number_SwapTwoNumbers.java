@@ -16,6 +16,7 @@ public class Number_SwapTwoNumbers {
                                              // num2 = 10    num1 = 14
                                              // num1 = 14 - 10 --> num1 = num1 - num2
                                              // num1 = 4   num2 = 10
+
         System.out.println("num1 = " + num1);
         System.out.println("num2 = " + num2);
     }

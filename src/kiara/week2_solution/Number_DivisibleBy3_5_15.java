@@ -19,6 +19,7 @@ public class Number_DivisibleBy3_5_15 {
             }
             if (i %5 == 0 && i %15 != 0 ){
                 by5 += i + " ";
+
             }
         }
         System.out.println("Divisible By 15 " + by15 + " ");

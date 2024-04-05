@@ -8,9 +8,9 @@ public class Number_SwapTwoNumbers {
         System.out.println("Value of x is: " + x);
         System.out.println("Value of y is: " + y);
 
-        x = x + y;
-        y = x - y;
-        x = x - y;
+        x = x + y; //x=22+11=33
+        y = x - y; //y=33-22=11
+        x = x - y; //x=33-11=22
 
         System.out.println("After Swapping");
         System.out.println("Value of x is: " + x);

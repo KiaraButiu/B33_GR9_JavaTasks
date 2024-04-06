@@ -3,7 +3,7 @@ package natalia.week3_solutions;
 public class Number_Prime {
     public static void main(String[] args) {
 
-        checkIfnumberPrime(10);
+        checkIfnumberPrime(29);
     }
 
     public static void checkIfnumberPrime(int a) {

@@ -5,7 +5,6 @@ public class Number_ReverseInteger {
 
         ReverseNegativeInteger(-321);
     }
-
     public static void ReverseNegativeInteger(int a) {
 
         int result = 0;

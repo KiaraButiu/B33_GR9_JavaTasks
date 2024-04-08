@@ -11,10 +11,9 @@ public class Numbers_OddOrEven {
             System.out.println("Odd");    //otherwise, it prints "Odd"
         }
     }
-
-//    public static void main(String[] args) {
-//        oddOrEven();
-//    }
+ public static void main(String[] args) {
+       oddOrEven(10);
+  }
 }
 
 

@@ -10,7 +10,7 @@ public class Number_ConsecutiveNumbers {
 
             String word = "";                           // String variable to store "words"
 
-            if (i %2 == 0){                             // I used single if statements so if its true, each word will be printed
+            if (i %2 == 0){                             // I used single if statements so if condition is TRUE each word will be printed
                 word += "Codility";
             }
             if (i %3 ==0){

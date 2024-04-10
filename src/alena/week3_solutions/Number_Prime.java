@@ -2,6 +2,11 @@ package alena.week3_solutions;
 
 public class Number_Prime {
     public static void main(String[] args) {
+
+        /*
+        Write a method that can check if a number is prime or not
+     */
+
         int num = 103;
 
         for (int i = 2; i < num; i++) {
@@ -17,7 +22,4 @@ public class Number_Prime {
         System.out.println(num + " a prime number.");
     }
 }
-/*
-        Write a method that can check if a number is prime or not
-     */
 

@@ -2,6 +2,7 @@ package seyma.week2_solutions;
 
 public class Number_SwapTwoNumbers {
     public static void main(String[] args) {
+
         int a = 10;
         int b = 20;
         System.out.println("Before Swapping");

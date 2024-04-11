@@ -9,7 +9,7 @@ public class Number_ReverseInteger {
         return num/-1;
     }
     public static void main(String[] args) {
-        System.out.println("the result is: " + reverseNegative(6));
+        System.out.println("the result is: " + reverseNegative(-64));
     }
     /*
 Write a return method that can reverse

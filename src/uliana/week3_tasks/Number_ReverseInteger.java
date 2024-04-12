@@ -22,6 +22,19 @@ public static int reverseNegative(int number) {
         int negativeNumber = -123;
         System.out.println("Reversed negative number: " + reverseNegative(negativeNumber));
     }
+    public static int reverseNegativeNumber (int num){
+
+        int reversedInt = 0;                                // will store reversed integer
+
+        while(num != 0){                                    // loop will continue to iterate until number = 0
+            int digit = num % 10;                           // store the last digit of num, extract last digit --> this will give us the remainder of the num
+            reversedInt = reversedInt * 10 + digit;         // append the extracted digit
+            num /= 10;                                      // remove the last digit of the number
+
+        }
+        return reversedInt;
+    }
+
 
 
 

@@ -22,6 +22,18 @@ public class Number_Prime {
         int number = 17;
         System.out.println(number + " is prime: " + isPrime(number));
     }
+     public static boolean checkIfPrimeNumber(int number){  // custom method will return a boolean T/F, parameter is an integer
+
+            if(number <= 1){                                // If number value is <= 1 --> return False because Prime #'s are greater than 1
+                return false;
+            }
+            for (int i = 2; i < number ; i++) {              //Loop Counter is starting at 2 since Prime cannot be equal to 1
+                if ( number % i == 0){                       // if number is divisible by "i" value
+                    return false;                           // then return False, because it is not prime
+                }
+            }
+            return true;
+        }
 
 
 

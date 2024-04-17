@@ -11,8 +11,8 @@ public class Number_Prime {
      }
 
      public static boolean primeNumber(int number){ // Custom method that take a number as an argument and returning boolean
-         if (number < 1 ){ // check first condition if number less than 1 exception will be thrown
-             throw new NumberFormatException("Number cannot be less than 1 ");
+         if (number <= 1 ){ // check first condition if number less than 1 exception will be thrown
+             throw new NumberFormatException("Number cannot be less or equal to 1 ");
          }
          for (int i = 2; i < number ; i++) { // for loop to get all numbers between 2 and last number before provided number
              if (number % i ==0){ // check if number divisible by any numbers between 1 and itself

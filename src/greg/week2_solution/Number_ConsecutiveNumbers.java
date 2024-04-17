@@ -20,8 +20,8 @@ public class Number_ConsecutiveNumbers {
             if (i % 5 == 0) {
                 word += "Coders";
             }
-            if (i % 2 != 0 && i % 3 != 0 && i % 5 != 0) {          // if "i" value is NOT divisible by 2, 3, and 5
-                word += i;                                         // word will be the "i" value
+            if (i % 2 != 0 && i % 3 != 0 && i % 5 != 0) {        // if "i" value is NOT divisible by 2, 3, and 5
+                word += i;                                       // word will be the "i" value
             }
 
             System.out.println(word);

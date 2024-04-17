@@ -11,7 +11,7 @@ public class Numbers_OddOrEven {
         if (num %2 == 0){                                           // if num is divisible by 2 meaning remainder is 0, then it is EVEN
             System.out.println(num + " is an even number.");
         }else{
-            System.out.println(num + " is an off number.");         // Otherwise, it is ODD
+            System.out.println(num + " is an odd number.");         // Otherwise, it is ODD
         }
     }
 }

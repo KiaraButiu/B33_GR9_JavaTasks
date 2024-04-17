@@ -19,7 +19,7 @@ public class Number_Prime {
     }
 
     public static void main(String[] args) {
-        int num = 13;
+        int num = 1;
         int num2 = 25;
 
         System.out.println(num + " is a prime number: " + checkIfPrimeNumber(num));

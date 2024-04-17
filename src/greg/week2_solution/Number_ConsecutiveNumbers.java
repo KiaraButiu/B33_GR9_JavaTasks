@@ -27,7 +27,6 @@ public class Number_ConsecutiveNumbers {
             System.out.println(word);
         }
     }
-
 }
 
    /*

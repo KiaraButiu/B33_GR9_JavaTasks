@@ -7,8 +7,4 @@ public class String_UniqueCharacters {
             Ex: unique("AAABBBCCCDEF") ==> "DEF";
 
      */
-
-
-
-
 }

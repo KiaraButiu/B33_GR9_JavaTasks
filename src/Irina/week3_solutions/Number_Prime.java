@@ -1,4 +1,4 @@
-package Irina.week3_tasks;
+package Irina.week3_solutions;
 
 public class Number_Prime {
 

@@ -59,6 +59,4 @@ public class Number_ConsecutiveNumbers {
             }
         }
     }
-
-
 }

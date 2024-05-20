@@ -30,19 +30,16 @@ negative number and return it as int
 
     public static void reverseInt(int number){
         String stringNumber = number + "";
-        String[] arrayStringNumber = stringNumber.split("");
-        System.out.println(Arrays.asList(arrayStringNumber));
 
-        String[] reversedArrayString = new String[arrayStringNumber.length];
+        String onlyDigits = stringNumber.substring(1);
+        System.out.println(onlyDigits);
 
-        for (int i = arrayStringNumber.length - 1, j = 0; i >= 0; i--, j++) {
-            reversedArrayString[j] = arrayStringNumber[i];
+        StringBuilder reversedString = new StringBuilder();
+
+        for (int i = onlyDigits.split("").length - 1; i >= 0; i--) {
+            reversedString.append(onlyDigits);
         }
-        StringBuilder newString = new StringBuilder();
-        for (String eachSymbol : reversedArrayString) {
-            newString.append(eachSymbol);
-        }
-        System.out.println(newString);
+
 
     }
 }

@@ -17,5 +17,6 @@ public class Array_ConcatTwoArrays {
     public static List<String> concatTwoArrays (List<String> array1, List<String> array2){
         array1.addAll(array2);
         return array1;
+
     }
 }

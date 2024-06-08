@@ -28,7 +28,7 @@ public class List_RemoveNumbers {
     }
 
     public static List<Integer> removeNumbers (List<Integer> list){
-        list.removeIf(number -> number > 100);
+        list.removeIf(l -> l > 100);
         return list;
     }
 }

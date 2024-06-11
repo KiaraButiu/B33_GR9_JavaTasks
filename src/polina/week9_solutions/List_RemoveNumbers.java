@@ -29,5 +29,12 @@ public class List_RemoveNumbers {
         Uses the removeIf method with a lambda expression to remove all elements greater than 100.
          */
         numbers.removeIf(number -> number > 100);
+
+        /* IMPORTANT ==> in ArrayList we can not use remove() method in any type of loop.
+        it does not give expected result. Because ArrayList is dynamic and during each
+        iteration of loop, the index numbers of elements changes. And it gives unexpected
+        result.
+                INSTEAD, we can use remove if() method in loop
+        AND, if we want to use remove if() method, also we need to use lambda expression.*/
     }
 }

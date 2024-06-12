@@ -1,4 +1,4 @@
-package mentor.week6_tasks;
+package seyma.week6_solutions;
 
 public class String_SumOfAllIntegers {
 
@@ -19,4 +19,3 @@ public class String_SumOfAllIntegers {
 
 
 }
-

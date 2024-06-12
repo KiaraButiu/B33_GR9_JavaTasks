@@ -10,9 +10,10 @@ public class Number_SwapTwoNumbers {
 
     }
     public static void swap(int a, int b){
-      int  temp = a+b;
-         a=temp-a;
-         b=temp-b;
+       a = a+b;
+      b=a-b;
+      a=a-b;
+
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 

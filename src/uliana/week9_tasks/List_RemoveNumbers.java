@@ -12,12 +12,15 @@ public class List_RemoveNumbers {
     public static void main(String[] args) {
 
 
-        List<Integer> numbers = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,100,105, 200, 350));
+        List<Integer> numbers = new ArrayList<>(Arrays.asList(1,2,400,401, 3,4,5,6,100,105,20, 200,15, 350));
        // numbers.removeIf(n->n>100);
         for (int i =numbers.size()-1; i >=0; i--) {
             if(numbers.get(i)>100){
                 numbers.remove(i);
             }
+//            if(numbers.get(i)%2!=0){
+//                numbers.remove(i);
+//            }
         }
         System.out.println(numbers);
 
